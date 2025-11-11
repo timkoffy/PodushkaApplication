@@ -1,0 +1,13 @@
+//
+// Created by timkoffy on 11/11/25.
+//
+
+#ifndef PODUSHKAAPPLICATION_PLAYLISTMANAGER_H
+#define PODUSHKAAPPLICATION_PLAYLISTMANAGER_H
+
+
+class playlistManager {
+};
+
+
+#endif //PODUSHKAAPPLICATION_PLAYLISTMANAGER_H

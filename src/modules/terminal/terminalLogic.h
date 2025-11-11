@@ -1,0 +1,13 @@
+//
+// Created by timkoffy on 11/11/25.
+//
+
+#ifndef PODUSHKAAPPLICATION_TERMINALLOGIC_H
+#define PODUSHKAAPPLICATION_TERMINALLOGIC_H
+
+
+class terminalLogic {
+};
+
+
+#endif //PODUSHKAAPPLICATION_TERMINALLOGIC_H

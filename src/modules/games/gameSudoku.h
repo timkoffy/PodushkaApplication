@@ -1,0 +1,13 @@
+//
+// Created by timkoffy on 11/11/25.
+//
+
+#ifndef PODUSHKAAPPLICATION_GAMESUDOKU_H
+#define PODUSHKAAPPLICATION_GAMESUDOKU_H
+
+
+class gameSudoku {
+};
+
+
+#endif //PODUSHKAAPPLICATION_GAMESUDOKU_H

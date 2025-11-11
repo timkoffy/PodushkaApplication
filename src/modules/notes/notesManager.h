@@ -1,0 +1,13 @@
+//
+// Created by timkoffy on 11/11/25.
+//
+
+#ifndef PODUSHKAAPPLICATION_NOTESMANAGER_H
+#define PODUSHKAAPPLICATION_NOTESMANAGER_H
+
+
+class notesManager {
+};
+
+
+#endif //PODUSHKAAPPLICATION_NOTESMANAGER_H

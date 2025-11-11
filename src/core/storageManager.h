@@ -1,0 +1,13 @@
+//
+// Created by timkoffy on 11/11/25.
+//
+
+#ifndef PODUSHKAAPPLICATION_STORAGEMANAGER_H
+#define PODUSHKAAPPLICATION_STORAGEMANAGER_H
+
+
+class storageManager {
+};
+
+
+#endif //PODUSHKAAPPLICATION_STORAGEMANAGER_H
