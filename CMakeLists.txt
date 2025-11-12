@@ -30,6 +30,8 @@ add_executable(PodushkaApplication main.cpp
         src/modules/games/gameSudoku.h
         src/modules/terminal/terminalLogic.cpp
         src/modules/terminal/terminalLogic.h
+        src/ui/headerWidget.cpp
+        src/ui/headerWidget.h
 )
 target_link_libraries(PodushkaApplication
   Qt5::Core
