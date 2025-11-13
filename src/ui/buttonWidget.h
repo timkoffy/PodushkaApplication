@@ -1,0 +1,13 @@
+//
+// Created by timkoffy on 11/13/25.
+//
+
+#ifndef PODUSHKAAPPLICATION_BUTTONWIDGET_H
+#define PODUSHKAAPPLICATION_BUTTONWIDGET_H
+
+
+class buttonWidget {
+};
+
+
+#endif //PODUSHKAAPPLICATION_BUTTONWIDGET_H

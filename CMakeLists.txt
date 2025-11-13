@@ -32,6 +32,10 @@ add_executable(PodushkaApplication main.cpp
         src/modules/terminal/terminalLogic.h
         src/ui/headerWidget.cpp
         src/ui/headerWidget.h
+        src/ui/buttonWidget.cpp
+        src/ui/buttonWidget.h
+        src/ui/windowLightWidget.cpp
+        src/ui/windowLightWidget.h
 )
 target_link_libraries(PodushkaApplication
   Qt5::Core
