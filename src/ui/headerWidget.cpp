@@ -11,11 +11,11 @@ HeaderWidget::HeaderWidget(QWidget* parent)
 void HeaderWidget::initializeWidget() {
     this->setFixedHeight(34);
 
-    auto* logoWidget = new QFrame;
+    logoWidget = new QFrame;
     logoWidget->setFixedWidth(622);
     logoWidget->setStyleSheet("background-color: #4C5F65;");
 
-    auto* infoBarWidget = new QFrame;
+    infoBarWidget = new QFrame;
     infoBarWidget->setStyleSheet("background-color: #970000;");
 
     auto* headerLayout = new QHBoxLayout(this);

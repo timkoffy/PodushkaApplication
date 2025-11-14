@@ -1,8 +1,8 @@
 #ifndef PODUSHKAAPPLICATION_HEADERWIDGET_H
 #define PODUSHKAAPPLICATION_HEADERWIDGET_H
-#include <QFrame>
-#include <qwidget.h>
 
+#include <QLabel>
+#include <qwidget.h>
 
 class HeaderWidget : public QFrame {
     Q_OBJECT;
@@ -10,6 +10,10 @@ class HeaderWidget : public QFrame {
 public:
     HeaderWidget(QWidget* parent = nullptr);
     void initializeWidget();
+private:
+    QLabel* logoText;
+    QFrame* logoWidget;
+    QFrame* infoBarWidget;
 };
 
 #endif //PODUSHKAAPPLICATION_HEADERWIDGET_H
