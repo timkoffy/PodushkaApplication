@@ -15,6 +15,15 @@ void HeaderWidget::initializeWidget() {
     logoWidget->setFixedWidth(622);
     logoWidget->setStyleSheet("background-color: #4C5F65;");
 
+    logoTextLabel = new QLabel;
+    logoTextLabel->setText("мой цифровой бункер");
+    logoTextLabel->setStyleSheet("color: #C7C8C7;");
+    logoTextLabel->setFixedWidth(622);
+
+    QHBoxLayout* logoLayout = new QHBoxLayout(logoWidget);
+    logoLayout->addWidget(logoTextLabel);
+    logoLayout->setContentsMargins(8,6,5,5);
+
     infoBarWidget = new QFrame;
     infoBarWidget->setStyleSheet("background-color: #970000;");
 

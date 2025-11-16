@@ -26,7 +26,6 @@ void MainWindow::initializeWindow() {
     WindowLightWidget* windowWidget = new WindowLightWidget;
     windowWidget->setFixedHeight(200);
     windowWidget->setHeaderText("заголовок");
-    windowWidget->setContentText("внутренний текст");
 
     QVBoxLayout* leftSidebarLayout = new QVBoxLayout(leftSidebarWidget);
     leftSidebarLayout->addWidget(windowWidget);

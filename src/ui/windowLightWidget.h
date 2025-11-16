@@ -8,22 +8,17 @@ class WindowLightWidget : public QFrame {
     Q_OBJECT;
 
 public:
-    WindowLightWidget(QWidget* parent = nullptr);
+    explicit WindowLightWidget(QWidget* parent = nullptr);
     void initializeWidget();
     void setHeaderText(QString text);
-    void setContentText(QString text);
+    void setContentWidget(QWidget* widget);
     void setFixedHeight(int h);
 
 private:
-    QLabel* headerTextLabel;
-    QLabel* contentTextLabel;
     QFrame* headerWidget;
-    QFrame* contentWidget;
-
+    QLabel* headerTextLabel;
+    QFrame* contentArea;
     QString headerText;
-    QString contentText;
 };
-
-
 
 #endif //PODUSHKAAPPLICATION_WINDOWLIGHTWIDGET_H

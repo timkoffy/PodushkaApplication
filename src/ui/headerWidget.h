@@ -11,7 +11,7 @@ public:
     HeaderWidget(QWidget* parent = nullptr);
     void initializeWidget();
 private:
-    QLabel* logoText;
+    QLabel* logoTextLabel;
     QFrame* logoWidget;
     QFrame* infoBarWidget;
 };
